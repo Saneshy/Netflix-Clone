@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <script
+      src="https://kit.fontawesome.com/03f875653b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@300&family=Rowdies:wght@300&family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation flex">
+        <div class="logo">
+         <h1 style="color: red; font: size 50px; ">JMedia+</h1>
+        </div>
+        <div class="navbar flex" id="navbar">
+          <div class="left-nav flex">
+            <ul class="flex menu">
+              <li>Home</li>
+              <li>TV Shows</li>
+              <li>Movies</li>
+              <li>New & Popular</li>
+              <li>My List</li>
+            </ul>
+          </div>
+          <div class="right-nav flex">
+            <span class="fa fa-search fa" aria-hidden="true">
+              <p>Children</p>
+            </span>
+            <span class="fa fa-bail-o fa" aria-hidden="true"></span>
+            <img src="c3.jpg" alt="" />
+            <span class="fa fa-caret-down fa"></span>
+          </div>
+        </div>
+
+        <span class="togglebtn" onclick="toggle()">&#9776;</span>
+      </div>
+      <div class="inner">
+        <div class="banner banner-code flex">
+          <h3>Marvel's Studio's</h3>
+          <h1>Avengers : End Game</h1>
+          <div class="banner-button flex">
+            <button class="btn">
+              <span class="fa fa-play play" aria-hidden="true"></span>Play
+            </button>
+            <button class="btn btn1">
+              <span
+                class="fa fa-info-circle play info"
+                aria-hidden="true"
+              ></span
+              >More Info
+            </button>
+          </div>
+        </div>
+        <div class="carousel">
+          <h3>New Release</h3>
+          <div class="carousel-slider">
+            <div class="carousel-list">
+              <div class="carousel-item bang">
+                <img src="av1.jpg" alt="" />
+              </div>
+              <div class="carousel-item bang">
+                <img src="bat.webp" alt="" />
+              </div>
+              <div class="carousel-item wokes bang">
+                <img src="cap.jpg" alt="" />
+              </div>
+              <div class="carousel-item wokes bang">
+                <img src="dead.jpg" alt="" />
+              </div>
+              <div class="carousel-item bang">
+                <img src="strange.jpg" alt="" />
+              </div>
+              <div class="carousel-item wokes bang">
+                <img src="gaurd.jpg" alt="" />
+              </div>
+              <div class="carousel-item wokes bang">
+                <img src="iron.jpg" alt="" />
+              </div>
+              <div class="carousel-item wokes bang">
+                <img src="thor.webp" alt="" />
+              </div>
+              <div class="carousel-item bang">
+                <img src="venom.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-container">
+      <div class="color-overlay"></div>
+      <video autoplay loop muted>
+        <source src="ae.mov" />
+      </video>
+    </div>
+    <script src="net.js"></script>
+  </body>
+</html>
